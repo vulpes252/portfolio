@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="大榎孝之のポートフォリオ。Web制作・業務自動化・API連携のご依頼はお気軽にどうぞ。">
+  <title>大榎孝之 — Web制作 &amp; 業務自動化</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======================================================
+       Header
+       ====================================================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#hero" class="logo">大榎<span class="dot">.dev</span></a>
+
+      <nav class="site-nav" id="site-nav" role="navigation" aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a href="#hero"    class="nav-link">Home</a></li>
+          <li><a href="#about"   class="nav-link">About</a></li>
+          <li><a href="#works"   class="nav-link">Works</a></li>
+          <li><a href="#skills"  class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link nav-link--btn">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle"
+              aria-label="メニューを開閉する"
+              aria-expanded="false"
+              aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ====================================================
+         Hero
+         ==================================================== -->
+    <section class="hero" id="hero" aria-label="ヒーローセクション">
+      <div class="hero__inner">
+
+        <div class="hero__avatar" data-anim="fade" aria-hidden="true">大</div>
+
+        <p class="hero__eyebrow" data-anim="up" data-delay="1">Freelance Web Creator</p>
+
+        <h1 class="hero__name" data-anim="up" data-delay="2">大榎 孝之</h1>
+
+        <p class="hero__tagline" data-anim="up" data-delay="3">
+          丁寧なWeb制作と<br>
+          ビジネスを加速する業務自動化を<br>
+          ワンストップで提供します。
+        </p>
+
+        <div class="hero__btns" data-anim="up" data-delay="4">
+          <a href="#works"   class="btn btn-primary">実績を見る</a>
+          <a href="#contact" class="btn btn-outline">お仕事のご依頼</a>
+        </div>
+
+        <ul class="hero__badges" data-anim="up" data-delay="5" aria-label="使用技術">
+          <li class="hero__badge">HTML / CSS</li>
+          <li class="hero__badge">JavaScript</li>
+          <li class="hero__badge">Python</li>
+          <li class="hero__badge">GAS</li>
+          <li class="hero__badge">WordPress</li>
+        </ul>
+
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-arrow"></div>
+      </div>
+    </section>
+
+
+    <!-- ====================================================
+         About
+         ==================================================== -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+
+        <header class="section-header" data-anim="up">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title" id="about-heading">できること</h2>
+        </header>
+
+        <div class="about__grid">
+
+          <div class="about__text" data-anim="left">
+            <p>
+              Webサイト制作から業務自動化まで、フリーランスとして幅広くサポートします。
+              「デザインはきれいだけど動かない」「自動化したいけど何から始めれば？」
+              そんなお悩みをまるごと解決します。
+            </p>
+            <p>
+              コーディングから運用まで一貫して対応できるため、複数の発注先に分けるコストや手間を
+              削減できます。クラウドワークスを中心にご依頼をお受けしており、丁寧なヒアリングと
+              迅速なレスポンスを心がけています。
+            </p>
+            <p>
+              小規模なスポット案件から継続的な保守まで、ぜひお気軽にご相談ください。
+            </p>
+          </div>
+
+          <ul class="highlight-list" data-anim="right">
+            <li class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">💻</div>
+              <div>
+                <p class="highlight-title">Web制作</p>
+                <p class="highlight-desc">
+                  コーポレートサイト・LP・ポートフォリオなど、デザインから実装まで対応。
+                  レスポンシブ・アクセシビリティ対応済み。
+                </p>
+              </div>
+            </li>
+            <li class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">⚡</div>
+              <div>
+                <p class="highlight-title">業務自動化</p>
+                <p class="highlight-desc">
+                  GAS・Pythonを使ったスプレッドシート集計、メール・Slack通知など
+                  繰り返し作業の自動化。
+                </p>
+              </div>
+            </li>
+            <li class="highlight-card">
+              <div class="highlight-icon" aria-hidden="true">🔗</div>
+              <div>
+                <p class="highlight-title">API連携</p>
+                <p class="highlight-desc">
+                  X (Twitter)・Instagram・楽天など各種APIを活用した
+                  データ取得・自動投稿ツールの開発。
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ====================================================
+         Works
+         ==================================================== -->
+    <section class="section section--alt" id="works" aria-labelledby="works-heading">
+      <div class="container">
+
+        <header class="section-header text-center" data-anim="up">
+          <p class="section-tag">Works</p>
+          <h2 class="section-title" id="works-heading">制作実績</h2>
+        </header>
+
+        <ol class="works__grid">
+
+          <!-- Work 1 -->
+          <li class="work-card" data-anim="up" data-delay="1">
+            <div class="work-card__head">
+              <span class="work-card__num">01</span>
+              <span class="work-card__cat">Web制作</span>
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">
+                カフェ公式サイト制作<br>（マルチページ）
+              </h3>
+              <p class="work-card__desc">
+                架空のフレンチカフェ「Café Lumière」の6ページ構成サイト。
+                Home・About・Menu・News・Access・Contact を実装。
+                スクロールアニメーション・モバイル対応・アクセシビリティを網羅。
+              </p>
+              <div class="work-tags">
+                <span class="work-tag">HTML / CSS</span>
+                <span class="work-tag">JavaScript</span>
+                <span class="work-tag">GitHub Pages</span>
+              </div>
+            </div>
+            <div class="work-card__foot">
+              <a href="../cafe-lumiere/index.html"
+                 class="work-link"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="カフェサイトのデモを開く">
+                View Demo <i class="work-link__arrow" aria-hidden="true">→</i>
+              </a>
+            </div>
+          </li>
+
+          <!-- Work 2 -->
+          <li class="work-card" data-anim="up" data-delay="2">
+            <div class="work-card__head">
+              <span class="work-card__num">02</span>
+              <span class="work-card__cat">業務自動化</span>
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">問い合わせ自動通知ツール</h3>
+              <p class="work-card__desc">
+                Googleフォームの回答をトリガーに、スプレッドシートへの記録・
+                担当者へのGmail通知・自動返信メールを同時に処理するGASスクリプト。
+                手作業ゼロで問い合わせ対応フローを自動化。
+              </p>
+              <div class="work-tags">
+                <span class="work-tag">GAS</span>
+                <span class="work-tag">Googleスプレッドシート</span>
+                <span class="work-tag">Gmail</span>
+              </div>
+            </div>
+            <div class="work-card__foot">
+              <span class="work-link" style="opacity:0.45; cursor:default;" aria-label="非公開">
+                Private Project
+              </span>
+            </div>
+          </li>
+
+          <!-- Work 3 -->
+          <li class="work-card" data-anim="up" data-delay="3">
+            <div class="work-card__head">
+              <span class="work-card__num">03</span>
+              <span class="work-card__cat">API連携</span>
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">
+                SNS自動投稿 &times;<br>楽天商品情報取得ツール
+              </h3>
+              <p class="work-card__desc">
+                楽天APIで商品情報・価格を取得し、テンプレートを使ってX (Twitter) および
+                Threadsへ自動投稿するPythonスクリプト。
+                スケジューラと組み合わせて完全無人運用を実現。
+              </p>
+              <div class="work-tags">
+                <span class="work-tag">Python</span>
+                <span class="work-tag">X API</span>
+                <span class="work-tag">Threads API</span>
+                <span class="work-tag">楽天API</span>
+              </div>
+            </div>
+            <div class="work-card__foot">
+              <span class="work-link" style="opacity:0.45; cursor:default;" aria-label="非公開">
+                Private Project
+              </span>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- ====================================================
+         Skills
+         ==================================================== -->
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <header class="section-header text-center" data-anim="up">
+          <p class="section-tag">Skills</p>
+          <h2 class="section-title" id="skills-heading">スキルセット</h2>
+        </header>
+
+        <div class="skills__grid">
+
+          <div class="skill-group" data-anim="up" data-delay="1">
+            <h3 class="skill-group__title">Frontend</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">HTML5 / CSS3</li>
+              <li class="skill-tag">JavaScript (ES2022+)</li>
+              <li class="skill-tag">レスポンシブデザイン</li>
+              <li class="skill-tag">CSS アニメーション</li>
+              <li class="skill-tag">アクセシビリティ</li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-anim="up" data-delay="2">
+            <h3 class="skill-group__title">Automation</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">Google Apps Script</li>
+              <li class="skill-tag">スプレッドシート設計</li>
+              <li class="skill-tag">メール自動化</li>
+              <li class="skill-tag">スケジューラ連携</li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-anim="up" data-delay="3">
+            <h3 class="skill-group__title">API &amp; Integration</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">REST API連携</li>
+              <li class="skill-tag">X (Twitter) API</li>
+              <li class="skill-tag">Threads API</li>
+              <li class="skill-tag">楽天 API</li>
+              <li class="skill-tag">Webhook</li>
+            </ul>
+          </div>
+
+          <div class="skill-group" data-anim="up" data-delay="4">
+            <h3 class="skill-group__title">CMS &amp; Deploy</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">WordPress</li>
+              <li class="skill-tag">GitHub Pages</li>
+              <li class="skill-tag">Git / GitHub</li>
+              <li class="skill-tag">レンタルサーバー</li>
+              <li class="skill-tag">ドメイン設定</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ====================================================
+         Contact
+         ==================================================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__inner" data-anim="up">
+
+          <p class="contact__tag">Contact</p>
+
+          <h2 class="contact__title" id="contact-heading">
+            お仕事のご依頼・<br>ご相談はこちら
+          </h2>
+
+          <p class="contact__desc">
+            Web制作・業務自動化・API連携など、どんな小さなご相談でも歓迎です。<br>
+            クラウドワークスのメッセージ機能よりお気軽にご連絡ください。
+          </p>
+
+          <a href="https://www.crowdworks.jp/"
+             class="btn-white"
+             target="_blank"
+             rel="noopener noreferrer">
+            クラウドワークスで依頼する →
+          </a>
+
+          <ul style="margin-top:2rem; display:flex; flex-direction:column; gap:0.5rem; list-style:none;">
+            <li style="font-size:0.85rem; color:rgba(255,255,255,0.82);">✓ 通常 24 時間以内にご返信します</li>
+            <li style="font-size:0.85rem; color:rgba(255,255,255,0.82);">✓ まずはお見積もりだけでも OK</li>
+            <li style="font-size:0.85rem; color:rgba(255,255,255,0.82);">✓ スポット案件・継続案件どちらも対応</li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ======================================================
+       Footer
+       ====================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-logo">大榎<span class="dot">.dev</span></p>
+      <p class="footer-copy">&copy; 2024 大榎孝之. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- Back to Top -->
+  <button class="back-top" aria-label="ページトップへ戻る">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
